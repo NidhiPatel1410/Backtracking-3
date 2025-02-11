@@ -1,3 +1,12 @@
+// In this problem, running a for loop to find the position of first character in the word, and when found, calling a recursive 
+// function from there and recursively searching for the next character in 4 directions, if found marking that as visited and moving
+// forward. And after the recursive call is completed, backtracking.
+
+// Time Complexity :m*n*3^L  where L is length of word, because we are calling recursive function on 3 directions in worst case
+// Space Complexity : 0(1)
+// Did this code successfully run on Leetcode : yes
+// Any problem you faced while coding this : no
+
 class WordSearch {
     int m, n;
     int[][] dirs;
